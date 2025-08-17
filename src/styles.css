@@ -26,6 +26,11 @@ body {
 
 .spinner {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 40px;
-    gap: 12px
+    gap: 12px;
+    user-select: none;
 }
