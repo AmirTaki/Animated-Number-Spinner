@@ -4,5 +4,9 @@ const meter = document.getElementById("meter");
 
 output.textContent = x;
 const plus = () => {
-    output.innerHTML = ++x;
+    output.textContent = ++x;
+}
+
+const minus = () => {
+    output.textContent = --x;
 }
