@@ -7,6 +7,9 @@ const plus = () => {
     if( x >= 10){
         return false
     }
+    if(x >= 7){
+        meter.style.background = "#f00" 
+    }
     output.textContent = ++x;
     meter.style.height = x*10+'%'
 }
@@ -14,6 +17,9 @@ const plus = () => {
 const minus = () => {
     if (x <= 0) {
         return false
+    }
+    if(x <= 7){
+        meter.style.background = "#0f0"
     }
     output.textContent = --x;
     meter.style.height = x*10+'%'
