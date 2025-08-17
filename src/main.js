@@ -8,6 +8,7 @@ const plus = () => {
         return false
     }
     output.textContent = ++x;
+    meter.style.height = x*10+'%'
 }
 
 const minus = () => {
@@ -15,4 +16,5 @@ const minus = () => {
         return false
     }
     output.textContent = --x;
+    meter.style.height = x*10+'%'
 }
